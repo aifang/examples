@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"declaration": false,
+		"declaration": true,
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"module": "umd",
@@ -12,18 +12,28 @@
 		"sourceMap": true,
 		"strictNullChecks": true,
 		"target": "es5",
-		"types": [ "intern" ],
+		"types": [
+			"intern"
+		],
 		"lib": [
 			"dom",
 			"es5",
 			"es2015.iterable",
 			"es2015.symbol",
-			"es2015.symbol.wellknown"
+			"es2015.symbol.wellknown",
+			"es7",
+			"es6",
+			"es2015",
+			"es2016",
+			"es2017"
 		]
 	},
 	"include": [
 		"./typings/index.d.ts",
 		"./src/**/*.ts",
 		"./tests/**/*.ts"
+	],
+	"exclude": [
+		"./srcDemo"
 	]
 }

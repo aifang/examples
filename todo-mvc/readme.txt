@@ -1,0 +1,4 @@
+tsconfig.json
+		"types": [
+			"intern"
+		],

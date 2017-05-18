@@ -58,7 +58,7 @@
 			"property-declaration": "onespace",
 			"variable-declaration": "onespace"
 		} ],
-		"use-strict": false,
+		"use-strict": true,
 		"variable-name": [ true, "check-format", "allow-leading-underscore", "ban-keywords", "allow-pascal-case" ],
 		"whitespace": [ true, "check-branch", "check-decl", "check-operator", "check-module", "check-separator", "check-type", "check-typecast" ]
 	}
